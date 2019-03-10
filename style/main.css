@@ -59,9 +59,8 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
   padding: 15px 25px;
-  font-size: 25px;
+  font-size: 0px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
@@ -75,7 +74,7 @@ h1.title {
     top: 10px;
     left: 0;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0px;
     line-height: 13px;
     text-align: center;
     color: #dddddd; }
@@ -83,7 +82,7 @@ h1.title {
     position: absolute;
     right: 30px;
     color: red;
-    font-size: 25px;
+    font-size: 0px;
     line-height: 25px;
     font-weight: bold;
     color: rgba(119, 110, 101, 0.9);
@@ -347,7 +346,9 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: url(assets/ram-memory.png), #dddddd;
-    background-size: 100% 100%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: left;
     font-weight: bold;
     z-index: 10;
@@ -355,23 +356,32 @@ hr {
   .tile.tile-3 .tile-inner {
     color: green;
     background: url(assets/ram.svg), #d8c1d3;
-    background-size: 100% 100% }
+    text-shadow: grey 2px 2px;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center; }
   .tile.tile-9 .tile-inner {
-    color: darkmagenta;
-    background: url(assets/cpu.svg), #bcd7de;
-    background-size: 100% 100% }
+    color:lightcoral;
+    text-shadow: grey 2px 2px;
+    background: url(assets/chip.svg), #bcd7de;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center; }
   .tile.tile-27 .tile-inner {
-    color: lightgreen;
-    background: url(assets/chip.svg), #ca96c3;
+    color: yellow;
+    text-shadow: grey 2px 2px;
+    background: url(assets/cpu.svg), #ca96c3;
     background-size: 100% 100% }
   .tile.tile-81 .tile-inner {
-    color: white;
+    color: lightyellow;
+    text-shadow: grey 2px 2px;
     background: url(assets/motherboard.svg), #83aec1; 
     background-size: 100% 100% }
   .tile.tile-243 .tile-inner {
-    color: lightcoral;
+    color: red;
     background: url(assets/robotics.svg), #ae7ca9;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+    text-shadow: grey 2px 2px;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-243 .tile-inner {
