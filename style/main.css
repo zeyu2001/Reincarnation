@@ -356,7 +356,6 @@ hr {
   .tile.tile-3 .tile-inner {
     color: green;
     background: url(assets/ram.svg), #d8c1d3;
-    text-shadow: grey 2px 2px;
     background-size: 80% 80%;
     background-repeat: no-repeat;
     background-position: center; }
