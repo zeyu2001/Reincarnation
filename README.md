@@ -7,11 +7,11 @@
 3. Unzip to Desktop etc.
 
 ### Opening the Game
-Open Desktop > Reincarnation >index.html 
+Open Desktop > Reincarnation > index.html <br />
 (the folder must be extracted and files should not be moved around in the folder or else it won't work)
 
 ### Keyboard Freezer
-App Download: https://www.sordum.org/7921/bluelife-keyfreeze-v1-4-block-keyboard-and-mouse/
+App Download: https://www.sordum.org/7921/bluelife-keyfreeze-v1-4-block-keyboard-and-mouse/ <br />
 Tutorial: https://www.youtube.com/watch?v=mpHVWdXaqPY
 
 1. Set countdown to 10 seconds, ensure mouse is NOT locked, only keyboard
